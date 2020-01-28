@@ -1,0 +1,8 @@
+Auto Close Tag
+Auto Rename Tag
+Bracket Pair Colorizer
+C#
+C# Extensions
+Es7 React/Redux/Graphql
+Material Icon theme
+Nuget Package Manager
