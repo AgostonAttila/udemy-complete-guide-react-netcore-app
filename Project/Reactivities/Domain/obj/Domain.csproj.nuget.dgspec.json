@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Programming\\Courses\\Course Repos\\UDEMY Complete guide to building an app with .Net Core and React\\udemy-complete-guide-react-netcore-app\\Project\\Reactivities\\Domain\\Domain.csproj": {}
+    "D:\\Programming\\Courses\\Course Repos\\UDEMY Complete guide to building an app with .Net Core and React\\udemy-complete-guide-react-netcore-app\\Project\\Reactivities\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "d:\\Programming\\Courses\\Course Repos\\UDEMY Complete guide to building an app with .Net Core and React\\udemy-complete-guide-react-netcore-app\\Project\\Reactivities\\Domain\\Domain.csproj": {
+    "D:\\Programming\\Courses\\Course Repos\\UDEMY Complete guide to building an app with .Net Core and React\\udemy-complete-guide-react-netcore-app\\Project\\Reactivities\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Programming\\Courses\\Course Repos\\UDEMY Complete guide to building an app with .Net Core and React\\udemy-complete-guide-react-netcore-app\\Project\\Reactivities\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\Programming\\Courses\\Course Repos\\UDEMY Complete guide to building an app with .Net Core and React\\udemy-complete-guide-react-netcore-app\\Project\\Reactivities\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "d:\\Programming\\Courses\\Course Repos\\UDEMY Complete guide to building an app with .Net Core and React\\udemy-complete-guide-react-netcore-app\\Project\\Reactivities\\Domain\\Domain.csproj",
+        "projectPath": "D:\\Programming\\Courses\\Course Repos\\UDEMY Complete guide to building an app with .Net Core and React\\udemy-complete-guide-react-netcore-app\\Project\\Reactivities\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\atesz\\.nuget\\packages\\",
-        "outputPath": "d:\\Programming\\Courses\\Course Repos\\UDEMY Complete guide to building an app with .Net Core and React\\udemy-complete-guide-react-netcore-app\\Project\\Reactivities\\Domain\\obj\\",
+        "outputPath": "D:\\Programming\\Courses\\Course Repos\\UDEMY Complete guide to building an app with .Net Core and React\\udemy-complete-guide-react-netcore-app\\Project\\Reactivities\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

@@ -1,17 +1,173 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Programming\\Courses\\Course Repos\\UDEMY Complete guide to building an app with .Net Core and React\\udemy-complete-guide-react-netcore-app\\Project\\Reactivities\\API\\API.csproj": {}
+    "D:\\Programming\\Courses\\Course Repos\\UDEMY Complete guide to building an app with .Net Core and React\\udemy-complete-guide-react-netcore-app\\Project\\Reactivities\\API\\API.csproj": {}
   },
   "projects": {
-    "d:\\Programming\\Courses\\Course Repos\\UDEMY Complete guide to building an app with .Net Core and React\\udemy-complete-guide-react-netcore-app\\Project\\Reactivities\\API\\API.csproj": {
+    "D:\\Programming\\Courses\\Course Repos\\UDEMY Complete guide to building an app with .Net Core and React\\udemy-complete-guide-react-netcore-app\\Project\\Reactivities\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Programming\\Courses\\Course Repos\\UDEMY Complete guide to building an app with .Net Core and React\\udemy-complete-guide-react-netcore-app\\Project\\Reactivities\\API\\API.csproj",
+        "projectUniqueName": "D:\\Programming\\Courses\\Course Repos\\UDEMY Complete guide to building an app with .Net Core and React\\udemy-complete-guide-react-netcore-app\\Project\\Reactivities\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "d:\\Programming\\Courses\\Course Repos\\UDEMY Complete guide to building an app with .Net Core and React\\udemy-complete-guide-react-netcore-app\\Project\\Reactivities\\API\\API.csproj",
+        "projectPath": "D:\\Programming\\Courses\\Course Repos\\UDEMY Complete guide to building an app with .Net Core and React\\udemy-complete-guide-react-netcore-app\\Project\\Reactivities\\API\\API.csproj",
         "packagesPath": "C:\\Users\\atesz\\.nuget\\packages\\",
-        "outputPath": "d:\\Programming\\Courses\\Course Repos\\UDEMY Complete guide to building an app with .Net Core and React\\udemy-complete-guide-react-netcore-app\\Project\\Reactivities\\API\\obj\\",
+        "outputPath": "D:\\Programming\\Courses\\Course Repos\\UDEMY Complete guide to building an app with .Net Core and React\\udemy-complete-guide-react-netcore-app\\Project\\Reactivities\\API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\atesz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Programming\\Courses\\Course Repos\\UDEMY Complete guide to building an app with .Net Core and React\\udemy-complete-guide-react-netcore-app\\Project\\Reactivities\\Application\\Application.csproj": {
+                "projectPath": "D:\\Programming\\Courses\\Course Repos\\UDEMY Complete guide to building an app with .Net Core and React\\udemy-complete-guide-react-netcore-app\\Project\\Reactivities\\Application\\Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.0, )",
+              "noWarn": [
+                "NU1605"
+              ]
+            },
+            "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
+              "target": "Package",
+              "version": "[5.0.0, )",
+              "noWarn": [
+                "NU1605"
+              ]
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Programming\\Courses\\Course Repos\\UDEMY Complete guide to building an app with .Net Core and React\\udemy-complete-guide-react-netcore-app\\Project\\Reactivities\\Application\\Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Programming\\Courses\\Course Repos\\UDEMY Complete guide to building an app with .Net Core and React\\udemy-complete-guide-react-netcore-app\\Project\\Reactivities\\Application\\Application.csproj",
+        "projectName": "Application",
+        "projectPath": "D:\\Programming\\Courses\\Course Repos\\UDEMY Complete guide to building an app with .Net Core and React\\udemy-complete-guide-react-netcore-app\\Project\\Reactivities\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\atesz\\.nuget\\packages\\",
+        "outputPath": "D:\\Programming\\Courses\\Course Repos\\UDEMY Complete guide to building an app with .Net Core and React\\udemy-complete-guide-react-netcore-app\\Project\\Reactivities\\Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\atesz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Programming\\Courses\\Course Repos\\UDEMY Complete guide to building an app with .Net Core and React\\udemy-complete-guide-react-netcore-app\\Project\\Reactivities\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Programming\\Courses\\Course Repos\\UDEMY Complete guide to building an app with .Net Core and React\\udemy-complete-guide-react-netcore-app\\Project\\Reactivities\\Domain\\Domain.csproj"
+              },
+              "D:\\Programming\\Courses\\Course Repos\\UDEMY Complete guide to building an app with .Net Core and React\\udemy-complete-guide-react-netcore-app\\Project\\Reactivities\\Persistence\\Persistence.csproj": {
+                "projectPath": "D:\\Programming\\Courses\\Course Repos\\UDEMY Complete guide to building an app with .Net Core and React\\udemy-complete-guide-react-netcore-app\\Project\\Reactivities\\Persistence\\Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Programming\\Courses\\Course Repos\\UDEMY Complete guide to building an app with .Net Core and React\\udemy-complete-guide-react-netcore-app\\Project\\Reactivities\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Programming\\Courses\\Course Repos\\UDEMY Complete guide to building an app with .Net Core and React\\udemy-complete-guide-react-netcore-app\\Project\\Reactivities\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "D:\\Programming\\Courses\\Course Repos\\UDEMY Complete guide to building an app with .Net Core and React\\udemy-complete-guide-react-netcore-app\\Project\\Reactivities\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\atesz\\.nuget\\packages\\",
+        "outputPath": "D:\\Programming\\Courses\\Course Repos\\UDEMY Complete guide to building an app with .Net Core and React\\udemy-complete-guide-react-netcore-app\\Project\\Reactivities\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -44,24 +200,77 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Programming\\Courses\\Course Repos\\UDEMY Complete guide to building an app with .Net Core and React\\udemy-complete-guide-react-netcore-app\\Project\\Reactivities\\Persistence\\Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Programming\\Courses\\Course Repos\\UDEMY Complete guide to building an app with .Net Core and React\\udemy-complete-guide-react-netcore-app\\Project\\Reactivities\\Persistence\\Persistence.csproj",
+        "projectName": "Persistence",
+        "projectPath": "D:\\Programming\\Courses\\Course Repos\\UDEMY Complete guide to building an app with .Net Core and React\\udemy-complete-guide-react-netcore-app\\Project\\Reactivities\\Persistence\\Persistence.csproj",
+        "packagesPath": "C:\\Users\\atesz\\.nuget\\packages\\",
+        "outputPath": "D:\\Programming\\Courses\\Course Repos\\UDEMY Complete guide to building an app with .Net Core and React\\udemy-complete-guide-react-netcore-app\\Project\\Reactivities\\Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\atesz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Programming\\Courses\\Course Repos\\UDEMY Complete guide to building an app with .Net Core and React\\udemy-complete-guide-react-netcore-app\\Project\\Reactivities\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Programming\\Courses\\Course Repos\\UDEMY Complete guide to building an app with .Net Core and React\\udemy-complete-guide-react-netcore-app\\Project\\Reactivities\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
           "dependencies": {
-            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+            "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.0, )",
-              "noWarn": [
-                "NU1605"
-              ]
+              "version": "[5.0.2, )"
             },
-            "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[5.0.0, )",
-              "noWarn": [
-                "NU1605"
-              ]
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[5.6.3, )"
+              "version": "[5.0.2, )"
             }
           },
           "imports": [
@@ -75,9 +284,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

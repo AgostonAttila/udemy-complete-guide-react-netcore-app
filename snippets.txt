@@ -6,3 +6,7 @@ C# Extensions
 Es7 React/Redux/Graphql
 Material Icon theme
 Nuget Package Manager
+
+
+dotnet tool install --global dotnet-ef
+dotnet ef migrations add InitialCreate -p Persistence/ -s API/
