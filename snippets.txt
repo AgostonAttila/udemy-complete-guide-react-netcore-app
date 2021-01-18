@@ -10,3 +10,9 @@ Nuget Package Manager
 
 dotnet tool install --global dotnet-ef
 dotnet ef migrations add InitialCreate -p Persistence/ -s API/
+
+npx create-react-app client-app --use-npm --typescript
+
+npm i axios
+
+npm i semantic-ui-react
