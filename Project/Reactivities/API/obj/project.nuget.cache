@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "XSrZqqLw66MXhxe8xYnzHQsDdgPF/4HsMNjnm9/XlpU5tUmh0TV4fV3WDQgWVOREs1hJjKnzyPzjmQX/0w8dJQ==",
+  "dgSpecHash": "+nEaFHPBSL45J9UHqOhLVSefApO57DP1vEibpRRnjNjG9dbX2lUB2Kc+CJwKRTzs9Y+qHKfYbwi0EXQ4b5CvoA==",
   "success": true,
   "projectFilePath": "D:\\Programming\\Courses\\Course Repos\\UDEMY Complete guide to building an app with .Net Core and React\\udemy-complete-guide-react-netcore-app\\Project\\Reactivities\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\atesz\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\atesz\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
+    "C:\\Users\\atesz\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
     "C:\\Users\\atesz\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.0\\microsoft.aspnetcore.authentication.jwtbearer.5.0.0.nupkg.sha512",
     "C:\\Users\\atesz\\.nuget\\packages\\microsoft.aspnetcore.authentication.openidconnect\\5.0.0\\microsoft.aspnetcore.authentication.openidconnect.5.0.0.nupkg.sha512",
     "C:\\Users\\atesz\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

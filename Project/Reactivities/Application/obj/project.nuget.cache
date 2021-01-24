@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "xHwMIUw0GJS2c2TA0ZNIdbv8+AdXehI5nPvQxiahF3nQYtNkTfOFtDlxYUzwwOQDMs8yoHlnzb8lasxKpl3CdA==",
+  "dgSpecHash": "k34JoU3InVLCEsu8RPs4Yqs96mzNjy5E8OHhyztS+wJmqbnJ9N4RFzUX1zXQ3ys9ej8k5wVcpf2wdQlOYe6ZQQ==",
   "success": true,
   "projectFilePath": "D:\\Programming\\Courses\\Course Repos\\UDEMY Complete guide to building an app with .Net Core and React\\udemy-complete-guide-react-netcore-app\\Project\\Reactivities\\Application\\Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\atesz\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
+    "C:\\Users\\atesz\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
     "C:\\Users\\atesz\\.nuget\\packages\\microsoft.data.sqlite.core\\5.0.2\\microsoft.data.sqlite.core.5.0.2.nupkg.sha512",
     "C:\\Users\\atesz\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\3.1.6\\microsoft.dotnet.platformabstractions.3.1.6.nupkg.sha512",
     "C:\\Users\\atesz\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.2\\microsoft.entityframeworkcore.5.0.2.nupkg.sha512",
