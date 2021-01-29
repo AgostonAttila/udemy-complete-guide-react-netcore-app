@@ -35,13 +35,25 @@ namespace API
          {
             opt.UseSqlite(Configuration.GetConnectionString("DefaultConnection"));
          });
-         services.AddCors(opt =>
+
+         /*   services.AddCors(opt =>
+             {
+                opt.AddPolicy("CorsPolicy", policy =>
+                  {
+                    policy.AllowAnyHeader().AllowAnyMethod().WithOrigins("http://localhost:3000").AllowCredentials();
+                 });
+             });*/
+
+         services.AddCors(options =>
          {
-            opt.AddPolicy("CorsPolicy", policy =>
-            {
-               policy.AllowAnyHeader().AllowAnyMethod().WithOrigins("http://localhost:3000");
-            });
+            options.AddPolicy(name: "CorsPolicy",
+                       builder =>
+                       {
+                          builder.AllowAnyHeader().AllowAnyMethod().WithOrigins("http://localhost:3000").AllowCredentials();
+                       });
          });
+
+
          services.AddMediatR(typeof(List.Handler).Assembly);
          services.AddControllers();
          services.AddSwaggerGen(c =>

@@ -69,3 +69,5 @@ D:\Programming\Courses\Course Repos\UDEMY Complete guide to building an app with
 D:\Programming\Courses\Course Repos\UDEMY Complete guide to building an app with .Net Core and React\udemy-complete-guide-react-netcore-app\Project\Reactivities\API\obj\Debug\net5.0\API.genruntimeconfig.cache
 D:\Programming\Courses\Course Repos\UDEMY Complete guide to building an app with .Net Core and React\udemy-complete-guide-react-netcore-app\Project\Reactivities\API\bin\Debug\net5.0\Humanizer.dll
 D:\Programming\Courses\Course Repos\UDEMY Complete guide to building an app with .Net Core and React\udemy-complete-guide-react-netcore-app\Project\Reactivities\API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Programming\Courses\Course Repos\UDEMY Complete guide to building an app with .Net Core and React\udemy-complete-guide-react-netcore-app\Project\Reactivities\API\bin\Debug\net5.0\MediatR.dll
+D:\Programming\Courses\Course Repos\UDEMY Complete guide to building an app with .Net Core and React\udemy-complete-guide-react-netcore-app\Project\Reactivities\API\bin\Debug\net5.0\MediatR.Extensions.Microsoft.DependencyInjection.dll

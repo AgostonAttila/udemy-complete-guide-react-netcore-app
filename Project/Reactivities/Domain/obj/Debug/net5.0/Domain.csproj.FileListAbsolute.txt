@@ -9,3 +9,4 @@ D:\Programming\Courses\Course Repos\UDEMY Complete guide to building an app with
 D:\Programming\Courses\Course Repos\UDEMY Complete guide to building an app with .Net Core and React\udemy-complete-guide-react-netcore-app\Project\Reactivities\Domain\obj\Debug\net5.0\Domain.dll
 D:\Programming\Courses\Course Repos\UDEMY Complete guide to building an app with .Net Core and React\udemy-complete-guide-react-netcore-app\Project\Reactivities\Domain\obj\Debug\net5.0\ref\Domain.dll
 D:\Programming\Courses\Course Repos\UDEMY Complete guide to building an app with .Net Core and React\udemy-complete-guide-react-netcore-app\Project\Reactivities\Domain\obj\Debug\net5.0\Domain.pdb
+D:\Programming\Courses\Course Repos\UDEMY Complete guide to building an app with .Net Core and React\udemy-complete-guide-react-netcore-app\Project\Reactivities\Domain\obj\Debug\net5.0\Domain.csprojAssemblyReference.cache
