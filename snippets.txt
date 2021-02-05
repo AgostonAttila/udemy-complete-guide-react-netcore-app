@@ -18,3 +18,5 @@ npm i axios
 npm i semantic-ui-react
 
 npm i mobx mobx-react-lite
+
+Mobx developer tools -> chrome
