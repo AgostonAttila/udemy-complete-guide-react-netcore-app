@@ -20,3 +20,10 @@ npm i semantic-ui-react
 npm i mobx mobx-react-lite
 
 Mobx developer tools -> chrome
+
+npm i react-datepicker
+npm i @types/react-datepicker --save-dev
+npm i react-datepicker --legacy-peer-deps
+
+npm ls-date-fns
+npm  i date-fns@2.17.0
