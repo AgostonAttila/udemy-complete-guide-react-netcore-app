@@ -32,3 +32,5 @@ npm i  react-dropzone
 npm i  react-cropper
 
 npm i  react-cropper --legacy-peer-deps
+
+npm i @microsoft/signalr
