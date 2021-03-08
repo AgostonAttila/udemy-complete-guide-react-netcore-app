@@ -27,3 +27,8 @@ npm i react-datepicker --legacy-peer-deps
 
 npm ls-date-fns
 npm  i date-fns@2.17.0
+
+npm i  react-dropzone
+npm i  react-cropper
+
+npm i  react-cropper --legacy-peer-deps
