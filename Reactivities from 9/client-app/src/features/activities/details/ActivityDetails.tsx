@@ -17,7 +17,7 @@ export default observer(function ActivityDetails() {
   useEffect(() => {
     if (id) loadActivity(id);
     return () => clearSelectedActivity();
-  }, [id, loadActivity]);
+  }, [id, loadActivity, clearSelectedActivity]);
 
   if (loadingInitial || !activity) return <LoadingComponent />;
 

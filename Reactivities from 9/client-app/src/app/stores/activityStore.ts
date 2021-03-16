@@ -1,9 +1,9 @@
-import { format } from 'date-fns';
 import { makeAutoObservable, runInAction } from 'mobx';
 import agent from '../api/agent';
 import { Activity, ActivityFormValues } from '../models/activity';
-import { Profile } from '../models/profile';
+import { format } from 'date-fns';
 import { store } from './store';
+import { Profile } from '../models/profile';
 
 export default class ActivityStore {
   activityRegistry = new Map<string, Activity>();
@@ -71,9 +71,8 @@ export default class ActivityStore {
     if (user) {
       activity.isGoing = activity.attendees!.some((a) => a.username === user.username);
       activity.isHost = activity.hostUsername === user.username;
-      activity.host = activity.attendees?.find((x) => x.username === user.username);
+      activity.host = activity.attendees?.find((x) => x.username === activity.hostUsername);
     }
-
     activity.date = new Date(activity.date!); // activity.date.split('T')[0];
     this.activityRegistry.set(activity.id, activity);
   };
@@ -172,10 +171,6 @@ export default class ActivityStore {
     }
   };
 
-  clearSelectedActivity = () => {
-    this.selectedActivity = undefined;
-  };
-
   updateAttendeeFollowing = (username: string) => {
     this.activityRegistry.forEach((activity) => {
       activity.attendees.forEach((attendee) => {
@@ -185,5 +180,9 @@ export default class ActivityStore {
         }
       });
     });
+  };
+
+  clearSelectedActivity = () => {
+    this.selectedActivity = undefined;
   };
 }
