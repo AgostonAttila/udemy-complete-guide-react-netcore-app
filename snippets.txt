@@ -34,3 +34,6 @@ npm i  react-cropper
 npm i  react-cropper --legacy-peer-deps
 
 npm i @microsoft/signalr
+
+npm i react-infinite-scroller
+npm i @types/react-infinite-scroller

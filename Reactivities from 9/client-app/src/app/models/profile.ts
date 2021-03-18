@@ -1,4 +1,4 @@
-import { User } from './user';
+import { User } from "./user";
 
 export interface Profile {
   username: string;
@@ -23,4 +23,11 @@ export interface Photo {
   id: string;
   url: string;
   isMain: boolean;
+}
+
+export interface UserActivity {
+  id: string;
+  title: string;
+  category: string;
+  date: Date;
 }
