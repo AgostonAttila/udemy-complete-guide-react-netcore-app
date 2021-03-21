@@ -42,6 +42,7 @@ namespace Application.Core
                 .ForMember(d => d.HostUsername, o => o.MapFrom(s =>
                     s.Activity.Attendees.FirstOrDefault(x => x.IsHost).AppUser.UserName));
 
+
         }
     }
 }

@@ -24,15 +24,15 @@ namespace API.Extensions
             });
             services.AddDbContext<DataContext>(opt =>
             {
-             //opt.UseSqlite(config.GetConnectionString("DefaultConnection"));
-             opt.UseNpgsql(config.GetConnectionString("DefaultConnection"));
+                //opt.UseSqlite(config.GetConnectionString("DefaultConnection"));
+                opt.UseNpgsql(config.GetConnectionString("DefaultConnection"));
             });
             services.AddCors(opt =>
             {
                 opt.AddPolicy("CorsPolicy", policy =>
                 {
-                      policy.AllowAnyMethod().AllowAnyHeader().AllowCredentials().WithOrigins(new string[] { "http://localhost:3000", "test" });
-                  });
+                    policy.AllowAnyMethod().AllowAnyHeader().AllowCredentials().WithOrigins(new string[] { "http://localhost:3000", "test" });
+                });
             });
             services.AddMediatR(typeof(List.Handler).Assembly);
             services.AddAutoMapper(typeof(MappingProfiles).Assembly);
