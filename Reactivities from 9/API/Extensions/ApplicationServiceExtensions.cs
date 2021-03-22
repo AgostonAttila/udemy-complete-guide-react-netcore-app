@@ -40,6 +40,8 @@ namespace API.Extensions
                 }
                 else
                 {
+
+
                     // Use connection string provided at runtime by Heroku.
                     var connUrl = Environment.GetEnvironmentVariable("DATABASE_URL");
 
