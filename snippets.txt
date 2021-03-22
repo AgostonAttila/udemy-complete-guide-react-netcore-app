@@ -42,3 +42,10 @@ npm run build
 
 docker
 docker run --name dev -e POSTGRES_USER=admin -e POSTGRES_PASSWORD=secret -p 5432:5432 -d postgres:latest
+
+
+heroku login
+$ heroku git:remote -a reactivitiesapp
+
+https://github.com/jincod/dotnetcore-buildpack
+
