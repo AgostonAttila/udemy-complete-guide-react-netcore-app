@@ -48,4 +48,17 @@ heroku login
 $ heroku git:remote -a reactivitiesapp
 
 https://github.com/jincod/dotnetcore-buildpack
+heroku buildpacks:set https://github.com/jincod/dotnetcore-buildpack
 
+git add .
+git commit -m "Heroku Deploy"
+git push heroku main
+
+https://securityheaders.com/
+NWebsec.AspNetCore.Middleware
+
+git push heroku master
+
+npm i @types/facebook-js-sdk --save-dev
+
+npm i rimraf --save-dev

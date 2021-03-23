@@ -1,4 +1,5 @@
 import axios, { AxiosError, AxiosResponse } from "axios";
+import { request } from "http";
 import { toast } from "react-toastify";
 import { history } from "../..";
 import { Activity, ActivityFormValues } from "../models/activity";
@@ -90,6 +91,7 @@ const Account = {
   current: () => requests.get<User>("/account"),
   login: (user: UserFormValues) => requests.post<User>("/account/login", user),
   register: (user: UserFormValues) => requests.post<User>("/account/register", user),
+  fbLogin: (accessToken: string) => requests.post<User>(`/account/fbLogin?accessToken=${accessToken}`, {}),
 };
 
 const Profiles = {
