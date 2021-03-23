@@ -62,3 +62,5 @@ git push heroku master
 npm i @types/facebook-js-sdk --save-dev
 
 npm i rimraf --save-dev
+
+git checkout -b Cucc
