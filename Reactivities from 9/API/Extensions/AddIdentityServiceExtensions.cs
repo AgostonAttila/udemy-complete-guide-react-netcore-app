@@ -21,8 +21,10 @@ namespace API.Extensions
             services.AddIdentityCore<AppUser>(opt =>
             {
                 opt.Password.RequireNonAlphanumeric = false;
+                opt.SignIn.RequireConfirmedEmail = true;
             }).AddEntityFrameworkStores<DataContext>()
-            .AddSignInManager<SignInManager<AppUser>>();
+            .AddSignInManager<SignInManager<AppUser>>()
+            .AddDefaultTokenProviders();
 
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(config["TokenKey"]));
 
@@ -42,15 +44,15 @@ namespace API.Extensions
                 {
                     OnMessageReceived = context =>
                  {
-                      var accesToken = context.Request.Query["acces_token"];
-                      var path = context.HttpContext.Request.Path;
-                      if (!String.IsNullOrWhiteSpace(accesToken) && (path.StartsWithSegments("/chat")))
-                      {
+                     var accesToken = context.Request.Query["acces_token"];
+                     var path = context.HttpContext.Request.Path;
+                     if (!String.IsNullOrWhiteSpace(accesToken) && (path.StartsWithSegments("/chat")))
+                     {
 
-                          context.Token = accesToken;
-                      }
-                      return Task.CompletedTask;
-                  }
+                         context.Token = accesToken;
+                     }
+                     return Task.CompletedTask;
+                 }
                 };
 
 
@@ -60,8 +62,8 @@ namespace API.Extensions
             {
                 opt.AddPolicy("IsActivityHost", policy =>
              {
-                   policy.Requirements.Add(new IsHostRequirement());
-               });
+                 policy.Requirements.Add(new IsHostRequirement());
+             });
             });
 
             services.AddTransient<IAuthorizationHandler, IsHostRequirementHandler>();
