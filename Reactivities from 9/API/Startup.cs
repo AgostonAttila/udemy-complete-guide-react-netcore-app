@@ -63,8 +63,9 @@ namespace API
                   .BlockAllMixedContent()
                 .StyleSources(s => s.Self().CustomSources(
                     "https://fonts.googleapis.com",
-                    "sha256-/epqQuRElKW1Z83z1Sg8Bs2MKi99Nrq41Z3fnS2Nrgk=",
-                    "sha256-2aahydUs+he2AO0g7YZuG67RGvfE9VXGbycVgIwMnBI="
+                    //"sha256-/epqQuRElKW1Z83z1Sg8Bs2MKi99Nrq41Z3fnS2Nrgk=",
+                    //"sha256-2aahydUs+he2AO0g7YZuG67RGvfE9VXGbycVgIwMnBI=",
+                    "sha256-iv4u281ryDFvLnNHPRS71LdIH1GQfkYMSMdyLM24i2M="
                 ))
                 .FontSources(s => s.Self().CustomSources(
                     "https://fonts.gstatic.com", "data:"
@@ -78,9 +79,11 @@ namespace API
                     ))
                 .ScriptSources(s => s.Self()
                     .CustomSources(
-                        "sha256-HIgflxNtM43xg36bBIUoPTUuo+CXZ319LsTVRtsZ/VU=",
+                        //"sha256-HIgflxNtM43xg36bBIUoPTUuo+CXZ319LsTVRtsZ/VU=",
                         "https://connect.facebook.net",
-                        "sha256-3x3EykMfFJtFd84iFKuZG0MoGAo5XdRfl3rq3r//ydA="
+                        //"sha256-3x3EykMfFJtFd84iFKuZG0MoGAo5XdRfl3rq3r//ydA=",
+                        "sha256-9/w7jvgjQw+D8m+9ldkAdMiCh4jAt6zdjD6Zig27Prs=",
+                        "sha256-3xI/RwSu97oTc/z0YwU7hP7sGn7xhd8/kS+brVdThMM="
                     ))
             );
 
