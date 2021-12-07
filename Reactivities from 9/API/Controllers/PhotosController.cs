@@ -1,5 +1,5 @@
 using System.Threading.Tasks;
-using Application.Photos;
+//using Application.Photos;
 using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers
@@ -7,7 +7,7 @@ namespace API.Controllers
     public class PhotosController : BaseApiController
     {
         [HttpPost]
-        public async Task<IActionResult> Add([FromForm] Add.Command command)
+        public async Task<IActionResult> Add([FromForm] Application.Photos.Add.Command command)
         {
             return HandleResult(await Mediator.Send(command));
         }
@@ -15,13 +15,13 @@ namespace API.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(string id)
         {
-            return HandleResult(await Mediator.Send(new Delete.Command { Id = id }));
+            return HandleResult(await Mediator.Send(new Application.Photos.Delete.Command { Id = id }));
         }
 
         [HttpPost("{id}/setMain")]
         public async Task<IActionResult> SetMain(string id)
         {
-            return HandleResult(await Mediator.Send(new SetMain.Command { Id = id }));
+            return HandleResult(await Mediator.Send(new Application.Photos.SetMain.Command { Id = id }));
         }
     }
 }
